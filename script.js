@@ -4,7 +4,7 @@ Button.addEventListener('click',chack);
 
 function chack(){
 	let num = document.getElementById("Text1").value;
-
+	alert("hello world");
 	if(num%2 == 0)
 	{
 		document.getElementById("result").innerHTML = "Even";
